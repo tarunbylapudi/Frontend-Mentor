@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+body{
+	background-color : hsl(233, 47%, 7%) ;
+	color : white;
+	background-size: 1440px;
+	font-size: 15px;
+}
+
+.content{
+	margin: 8% 13%;
+	
+}
+	
+
+.description{
+	background-color: hsl(244, 38%, 16%);
+	height: 27rem;
+	padding: 5% 10% 5% 5%;
+	border-radius: 5px;
+}
+.insights{
+	color:hsl(277, 64%, 61%);
+}
+.photo{	
+	background-color:hsl(277, 64%, 61%);
+	background: url("images/image-header-desktop.jpg");
+	padding: 5% 10% 5% 5%;
+	border-radius: 5px;
+	position: relative;
+		
+}
+.overlay{
+	margin:0;
+	height: 100%;
+	width:100%;
+	background: hsl(277, 64%, 61%); 
+	opacity:0.4;
+	position: absolute;
+	top:0;
+	left:0;
+}
+.maintext{
+	color :hsl(0, 0%, 100%);
+	font-family: "Inter";
+	font-weight: 700;
+}
+.subtext{
+	margin-top:7%;
+	padding-right: 9%;
+	color: hsla(0, 0%, 100%, 0.75);	
+	font-family: "Inter";
+	font-weight: 700;
+}
+.stats{
+	margin-top: 14%;
+	color :hsl(0, 0%, 100%);
+	font-weight: 700;
+}
+.stat-values{
+	 color: hsla(0, 0%, 100%, 0.6);
+	 font-family: "Lexend Deca";
+	 font-weight: 400;
+}
