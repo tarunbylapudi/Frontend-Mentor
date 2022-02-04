@@ -1,0 +1,10 @@
+@charset "ISO-8859-1";
+
+body{
+	background-image: url("images/pattern-background-desktop.svg");
+}
+
+.cbox{
+	text-align: center;
+	
+}
